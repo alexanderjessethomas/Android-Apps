@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ProfilePageActivity"
+    android:id="@+id/R"
+    android:background="#00549f">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Info"
+                android:id="@+id/textView17"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/textView17"
+                android:paddingTop="20sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:id="@+id/textView19"
+                android:layout_below="@+id/editName"
+                android:paddingTop="30sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height (ft)"
+                android:id="@+id/textView20"
+                android:layout_below="@+id/editAge"
+                android:paddingTop="30sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height (in)"
+                android:id="@+id/textView21"
+                android:layout_below="@+id/editHeightft"
+                android:paddingTop="30sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:id="@+id/textView22"
+                android:layout_below="@+id/editHeightin"
+                android:paddingTop="30sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:id="@+id/textView23"
+                android:layout_below="@+id/editWeight"
+                android:paddingTop="30sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editName"
+                android:layout_toRightOf="@+id/textView21"
+                android:layout_toEndOf="@+id/textView21"
+                android:layout_alignBaseline="@+id/textView18"
+                android:layout_alignBottom="@+id/textView18"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editAge"
+                android:layout_below="@+id/editName"
+                android:layout_alignBaseline="@+id/textView19"
+                android:layout_alignBottom="@+id/textView19"
+                android:layout_alignLeft="@+id/editName"
+                android:layout_alignStart="@+id/editName"
+                android:layout_alignRight="@+id/editName"
+                android:layout_alignEnd="@+id/editName"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editHeightft"
+                android:layout_below="@+id/editAge"
+                android:layout_alignBaseline="@+id/textView20"
+                android:layout_alignBottom="@+id/textView20"
+                android:layout_alignLeft="@+id/editAge"
+                android:layout_alignStart="@+id/editAge"
+                android:layout_alignRight="@+id/editAge"
+                android:layout_alignEnd="@+id/editAge"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editHeightin"
+                android:layout_below="@+id/editHeightft"
+                android:layout_alignBaseline="@+id/textView21"
+                android:layout_alignBottom="@+id/textView21"
+                android:layout_alignLeft="@+id/editHeightft"
+                android:layout_alignStart="@+id/editHeightft"
+                android:layout_alignRight="@+id/editHeightft"
+                android:layout_alignEnd="@+id/editHeightft"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editWeight"
+                android:layout_alignBaseline="@+id/textView22"
+                android:layout_alignBottom="@+id/textView22"
+                android:layout_alignLeft="@+id/editHeightin"
+                android:layout_alignStart="@+id/editHeightin"
+                android:layout_alignRight="@+id/editHeightin"
+                android:layout_alignEnd="@+id/editHeightin" />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editGender"
+                android:layout_alignBaseline="@+id/textView23"
+                android:layout_alignBottom="@+id/textView23"
+                android:layout_alignLeft="@+id/editWeight"
+                android:layout_alignStart="@+id/editWeight"
+                android:layout_alignRight="@+id/editWeight"
+                android:layout_alignEnd="@+id/editWeight"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change"
+                android:id="@+id/button4"
+                android:layout_below="@+id/editGender"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:background="#f68c4e" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

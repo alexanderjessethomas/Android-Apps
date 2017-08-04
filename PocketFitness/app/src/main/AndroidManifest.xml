@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jmda.pocketfitness">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainMenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".ViewDietActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenuActivity" />
+        </activity>
+        <activity android:name=".ViewExerciseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenuActivity" />
+        </activity>
+        <activity android:name=".ViewSleepActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenuActivity" />
+        </activity>
+        <activity android:name=".AddDietActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewDietActivity" />
+        </activity>
+        <activity android:name=".AddExerciseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewExerciseActivity" />
+        </activity>
+        <activity android:name=".AddSleepActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewSleepActivity" />
+        </activity>
+        <activity android:name=".ProfilePageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenuActivity" />
+        </activity>
+        <activity android:name=".ChangeInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfilePageActivity" />
+        </activity>
+        <activity android:name=".ViewProgressActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainMenuActivity" />
+        </activity>
+        <activity android:name=".ViewDietActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewProgressActivity" />
+        </activity>
+        <activity android:name=".ViewExerciseActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewProgressActivity" />
+        </activity>
+        <activity android:name=".ViewSleepActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewProgressActivity" />
+        </activity>
+    </application>
+
+</manifest>

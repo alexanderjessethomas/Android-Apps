@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ProfilePageActivity"
+    android:id="@+id/relativelayout"
+    android:background="#00549f">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu"
+        android:id="@+id/mainMenu"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f68c4e"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Info"
+        android:id="@+id/edit"
+        android:layout_alignTop="@+id/mainMenu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:background="#f68c4e"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainMenu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/edit"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@id/textView2"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:text="Gender:"
+            android:textSize="20sp"
+            android:paddingTop="10sp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height:"
+            android:textSize="20sp"
+            android:id="@+id/textView3"
+            android:paddingTop="10sp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight:"
+            android:textSize="20sp"
+            android:id="@+id/textView4"
+            android:paddingTop="10sp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:id="@+id/textView5"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView4"
+            android:paddingTop="10sp"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI:"
+            android:id="@+id/textView6"
+            android:textSize="20sp"
+            android:paddingTop="10sp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_alignEnd="@+id/textView5"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:text="Name"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:layout_above="@+id/textView2"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:text="Gender"
+            android:paddingTop="10sp"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignLeft="@+id/textView7"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:id="@+id/textView9"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="10sp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:id="@+id/textView13"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:layout_below="@+id/textView9"
+            android:paddingTop="10sp"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_alignBottom="@+id/textView4"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:id="@+id/textView14"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="10sp"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI"
+            android:id="@+id/textView15"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="10sp"
+            android:layout_below="@+id/textView14"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_alignLeft="@+id/textView14"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Profilepage"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="#00549f" />
+</RelativeLayout>
