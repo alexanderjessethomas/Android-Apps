@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DroidBuy</string>
+    <string name="activityTitle">Pocket Fitness Menu</string>
+    <string name="sleepButton">Add Sleep</string>
+    <string name="profileButton">Profile Page</string>
+    <string name="dietButton">Add Diet</string>
+    <string name="exerciseButton">Add Exercise</string>
+    <string name="progressButton">View Progress</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="addExercise">Add Exercise Done</string>
+    <string name="Profilepage">Profile</string>
+    <string name="ViewProgressMenu">View Progress</string>
+
+    <string name="title_activity_add_diet">Add Food Consumed</string>
+    <string name="title_activity_add_exercise">Add Exercise Done</string>
+    <string name="title_activity_add_sleep">Add Time Slept</string>
+
+    <string name="title_activity_view_diet">View Diet Progress</string>
+    <string name="title_activity_view_exercise">View Exercise Progress</string>
+    <string name="title_activity_view_sleep">View Sleep Progress</string>
+
+    <string name="add">Add</string>
+    <string name="food">Food</string>
+    <string name="calories">Calories</string>
+    <string name="activity">Activity</string>
+    <string name="hours">Hours</string>
+    <string name="date">Date</string>
+    <string name="sleep">Sleep Time</string>
+</resources>
